@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    position: relative;
+    top: 50px;
+    background-color: #333333;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+
+input {
+    background-color: black;
+    color: white;
+    width: 70%;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 160px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+input:hover {
+    cursor: pointer;
+    transform: scaleY(1.5);
+}
+
+#content {
+    display: flex;
+    margin-left: 160px;
+    gap: 10px;
+}
+
+#content input {
+    margin: 5px 0;
+    width: 14%;
+
+}
+
+#content button {
+    color: white;
+    background-color: red;
+    width: 100px;
+    border-radius: 40px;
+}
+
+#create {
+    width: 72%;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    margin-left: 160px;
+}
+
+#typeSearch {
+    display: flex;
+    gap: 270px;
+    margin-left: 160px;
+}
+
+#typeSearch button {
+    width: 30%;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 40px;
+    margin: 5px 0;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+#delete,
+#update,
+#deleteAll button {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 40px;
+}
+
+#deleteAll button {
+    margin: 5px 0;
+    margin-left: 160px;
+    width: 72%;
+
+}
+
+tr td button:hover,
+tr td button:hover,
+#deleteAll button:hover,
+#content button :hover,
+#create:hover,
+#typeSearch button:hover {
+    cursor: pointer;
+    transform: scaleY(2);
+}
+
+table {
+    width: 72%;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 160px;
+    color: white;
+}
+
+
+
+table tr th {
+    padding: 5px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CRUDS</title>
+</head>
+
+<body class="container">
+    <h1>CRUDS</h1>
+    <p>CREATE READ UPDATE DELETE SEARCH</p>
+    <input id="title" type="text" placeholder="title">
+
+    <div id="content">
+        <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+        <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
+        <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+        <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+        <button id="total">
+            Total
+        </button>
+    </div>
+    <input id="count" type="text" placeholder="count">
+    <input id="catogary" type="text" placeholder="catogary">
+    <button id="create">Create</button>
+    <input onkeyup="searchData(this.value)" id="search" type="text" placeholder="search">
+    <div id="typeSearch" class="container">
+        <button onclick="getSearchMood(this.id)" id="searchTitle">Search By Title</button>
+
+        <button onclick="getSearchMood(this.id)" id="searchCatogary">Search By catogary </button>
+
+    </div>
+    <div id="deleteAll" class="container">
+    </div>
+
+
+    <table class="container">
+        <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>PRICE</th>
+            <th>TAXES</th>
+            <th>ADS</th>
+            <th>DISCOUNT</th>
+            <th>TOTAL</th>
+            <th>CATEGORY</th>
+            <th>UPDATE</th>
+            <th>DELETE</th>
+        </tr>
+
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <script src="../js/main.js"></script>
+
+
+</body>
+
+</html>
