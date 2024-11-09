@@ -1,0 +1,635 @@
+body {
+    background-color: #000033;
+}
+
+#nav {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#nav h1 {
+    margin-left: 100px;
+
+
+}
+
+.span1 {
+    color: cornflowerblue;
+
+}
+
+.ul1 {
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+    margin-left: 30px;
+
+}
+
+.ul1 li {
+    padding: 40px;
+
+}
+
+.ul1 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul1 li :hover {
+    cursor: pointer;
+    color: blue;
+}
+
+
+#in {
+    position: relative;
+}
+
+input {
+    color: white;
+    background-color: #312f4e;
+    width: 600px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+i {
+    color: blue;
+}
+
+#in i {
+    position: absolute;
+    right: 470px;
+    bottom: 6px;
+}
+
+#contener {
+    position: relative;
+}
+
+#contener img {
+    width: 1000px;
+    height: 300px;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+#contenerH {
+    position: absolute;
+    color: white;
+    left: 300px;
+    bottom: 100px;
+}
+
+#conH3 {
+    gap: 50px;
+    display: flex;
+}
+
+
+#contener #conH3 h4 {
+    color: white;
+    line-height: 10px;
+
+
+}
+
+
+#contener #conH3 i {
+    color: blue;
+    left: 300px;
+
+}
+
+#category h1 {
+    color: white;
+    margin-left: 320px;
+    font-size: 30px;
+}
+
+#contenerCategory1,
+#contenerCategory2 {
+    display: flex;
+    justify-content: center;
+}
+
+#contenerCategory1 img,
+#contenerCategory2 img {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+#contenerCategory1 #img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8 {
+    display: flex;
+    position: relative;
+
+}
+
+#pAction,
+#pComedy,
+#pThriller,
+#pHorror,
+#pAnimated,
+#pCrime,
+#pSCI-FI {
+    color: white;
+    position: absolute;
+    display: flex;
+    left: 20px;
+    bottom: 5px;
+    gap: 90px;
+}
+
+#pAdventuer {
+    color: white;
+    position: absolute;
+    display: flex;
+    left: 20px;
+    bottom: 5px;
+    gap: 65px;
+}
+
+#p1:hover,
+#contenerPart1Img h3:hover,
+#contenerPart2Img h3:hover,
+#turbo pre:hover,
+#sport pre:hover,
+#animal pre:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#p2 {
+    background-color: #312f4ed4;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#footerSec {
+    display: flex;
+    height: 50px;
+    width: 850px;
+    background-color: #4943974d;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#footerSec h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+#footerSec #genres,
+#footerSec #Years {
+
+    color: white;
+    width: 95px;
+    height: 20px;
+    margin: 15px;
+    border: none;
+    background: none;
+
+}
+
+#footerSec #genres {
+    margin-left: 450px;
+}
+
+
+
+#footerSec #genres option,
+#footerSec #Years option {
+    background-color: #312f4e;
+
+}
+
+#movies h1,
+#tvShows h1,
+#liveNow h1,
+#topComments h1,
+#ourPricing h1,
+#generalStats h1 {
+    margin-left: 370px;
+    color: white;
+    font-size: 40px;
+}
+
+#contenerPart1Img,
+#contenerPart2Img {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+#contenerPart1Img h3,
+#contenerPart1Img p,
+#contenerPart2Img h3,
+#contenerPart2Img p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#contenerPart1Img img,
+#contenerPart2Img img {
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0%;
+}
+
+#inImg1 p,
+#inImg2 p,
+#inImg3 p,
+#inImg4 p,
+#inImg5 p,
+#inImg6 p,
+#inImg7 p,
+#inImg8 p,
+#inImg9 p,
+#inImg10 p {
+    position: relative;
+    top: 55px;
+    left: 25px;
+    background-color: #312f4ea0;
+    width: 40px;
+    border-radius: 20px;
+    padding: 3px;
+
+
+}
+
+#movies #btn,
+#tvShows #btn {
+    padding: 10px 30px;
+    background-color: #4943974d;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+#movies #btn:hover,
+#tvShows #btn:hover {
+    background-color: blue;
+}
+
+#contenerContent {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+#contenerContent img {
+    position: relative;
+    left: 360px;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+
+}
+
+#turbo #p1,
+#sport #p1,
+#animal #p1 {
+    color: white;
+    background-color: red;
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#turbo #p2,
+#sport #p2,
+#animal #p2 {
+    color: white;
+    background-color: #312f4ed4;
+    position: relative;
+    bottom: 105px;
+    left: 380px;
+    width: 100px;
+}
+
+#turbo #div1,
+#sport #div2,
+#animal #div3 {
+    display: flex;
+
+}
+
+#turbo pre,
+#sport pre,
+#animal pre {
+    color: white;
+    position: relative;
+    bottom: 100px;
+    font-size: 13px;
+    left: 380px;
+}
+
+#turbo pre img,
+#sport pre img,
+#animal pre img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -10px;
+    top: 25px;
+}
+
+#ourPricing #contener {
+    display: flex;
+    background-size: calc(100%*3);
+    margin-left: 370px;
+
+}
+
+
+#ourPricing #contener #div1,
+#ourPricing #contener #div2,
+#ourPricing #contener #div3 {
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#ourPricing #contener #div3 {
+    margin-right: 280px;
+}
+
+#ourPricing #contener #div1 button,
+#ourPricing #contener #div2 button,
+#ourPricing #contener #div3 button {
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: #242236;
+}
+
+#ourPricing #contener #div1 button:hover,
+#ourPricing #contener #div2 button:hover,
+#ourPricing #contener #div3 button:hover {
+    background-color: white;
+    color: blue;
+}
+
+#ourPricing #contener #div1 h2,
+#ourPricing #contener #div2 h2,
+#ourPricing #contener #div3 h2 {
+    line-height: 70px;
+    color: blue;
+}
+
+
+#ourPricing #contener #div1 h3,
+#ourPricing #contener #div2 h3,
+#ourPricing #contener #div3 h3 {
+    line-height: 60px;
+    font-family: Brush Script MT;
+    color: blue;
+}
+
+#topComments,
+#ourPricing,
+#generalStats,
+#footer {
+    position: relative;
+    bottom: 100px;
+}
+
+#div1S,
+#div2S,
+#div3S {
+    display: flex;
+    margin-left: 370px;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+#div1S img,
+#div2S img,
+#div3S img {
+    border-radius: 100%;
+    border: solid blue 2px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#div1S input {
+    height: 30px;
+    width: 600px;
+}
+
+#btn3 {
+    margin-left: 433px;
+    color: white;
+    background-color: #181724;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+#div2S,
+#div3S {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+#div2S #Ps,
+#div3S #Ps2 {
+    width: 600px;
+    height: 120px;
+    background-color: antiquewhite;
+
+    padding: 7px;
+}
+
+#div3S #Ps2 {
+    height: 100px;
+}
+
+#div2S #Ps #span1,
+#span1 {
+    color: blue;
+    margin-left: 430px;
+
+}
+
+#generalStats .contener {
+    display: flex;
+    background-size: calc(100%*2);
+    justify-content: center;
+}
+
+.contener .div1,
+.contener .div2,
+#div2S #Ps,
+#div3S #Ps2,
+#btn3,
+#div1S input,
+#ourPricing #contener #div1,
+#ourPricing #contener #div2,
+#ourPricing #contener #div3,
+#ourPricing #contener #div1 button,
+#ourPricing #contener #div2 button,
+#ourPricing #contener #div3 button {
+    border: rgba(0, 0, 255, 0.603) solid 1px;
+    border-radius: 20px;
+}
+
+.contener .div1,
+.contener .div2 {
+
+    margin-left: 20px;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+
+}
+
+.div1 h3 {
+    color: white;
+}
+
+.div1 .m1,
+.div1 .tv1,
+.div1 .ln1,
+.div1 .ls1 {
+    width: 180px;
+
+    background-color: white;
+}
+
+.div1 .m1,
+.div1 .tv1,
+.div1 .ln1,
+.div1 .ls1,
+.div1 .m2,
+.div1 .tv2,
+.div1 .ln2,
+.div1 .ls2 {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.div1 .m2 {
+    width: 160px;
+    background-color: goldenrod;
+}
+
+
+
+.div1 .tv2 {
+    width: 110px;
+    background-color: coral;
+}
+
+.div1 .ln2 {
+    width: 140px;
+    background-color: darkorchid;
+}
+
+.div1 .ls2 {
+    width: 70px;
+    background-color: skyblue;
+}
+
+.div2 .ul2 {
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.div2 .ul2 .span2 {
+    color: blue;
+}
+
+.div2 .ul2 .li1 {
+    list-style-image: url(img/images/facebook.png);
+
+}
+
+.div2 .ul2 .li2 {
+    list-style-image: url(img/images/twitter.png);
+
+}
+
+.div2 .ul2 .li3 {
+    list-style-image: url(img/images/instagram.png);
+
+}
+
+.contenerF {
+    display: flex;
+    color: white;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+
+.contenerF .divf1 h1 {
+    font-size: 25px;
+}
+
+.contenerF .divf1 i {
+    padding-left: 25px;
+    color: white;
+    right: 25px;
+    position: relative;
+
+}
+
+
+.contenerF .divf1,
+.contenerF .divf2,
+.contenerF .divf3,
+.contenerF .divf4 {
+    line-height: 30px;
+}
+
+img {
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+img:hover {
+    scale: 1.3;
+}
+
+input {
+    padding: 20px;
+}

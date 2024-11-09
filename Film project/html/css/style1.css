@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0%;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #000033;
+    display: flex;
+    position: relative;
+
+
+}
+
+center {
+    display: flex;
+}
+
+#conImg {
+    background-size: cover;
+    width: 1400px;
+    height: 650px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    opacity: .4;
+}
+
+/* #contener1 {
+    position: absolute;
+    background-image: url(img/images/login-bg.jpg);
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-size: cover;
+    width: 60%;
+    height: 60vh;
+    margin: 10px;
+    /* margin-top: 33px;
+    margin-left: 75px; 
+}
+
+*/
+/* أجهزة الشاشات الصغيرة (مثل الهواتف) 
+@media screen and (max-width: 600px) {
+    #contener1 {
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    #contText {
+
+        position: absolute;
+
+        left: 50%; 
+    }
+}
+*/
+/* أجهزة الشاشات المتوسطة (مثل التابلت) د
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+
+    #contener1 {
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+
+    #contText {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+}*/
+
+/*أجهزة الشاشات الكبيرة (مثل أجهزة الكمبيوتر) 
+@media screen and (min-width: 1025px) {
+    body {}
+}*/
+
+
+#contText {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    word-wrap: break-word;
+    line-height: 50px;
+}
+
+
+#contText img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+}
+
+#contener1 h4 {
+    font-family: unset;
+    font-size: large;
+}
+
+#contener1 h4,
+p {
+    color: white;
+    text-align: center;
+}
+
+#contener1 #inp1,
+#inp2 {
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+#input1,
+#input2 {
+    padding: 5px;
+}
+
+#btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#contener2 {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+
+#contener2 img {
+    height: 500px;
+    width: 500px;
+}
