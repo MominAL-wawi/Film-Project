@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to bottom, #cc6699, #333366);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    height: 90vh;
+
+}
+
+#cc {
+    border-radius: 40px;
+    border: none;
+}
+
+
+.le {
+    color: #ff9933;
+    font-size: large;
+    font-style: bold;
+}
+
+.card-body,
+.p-4 {
+
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+#I1,
+#I2,
+#I3 {
+    height: 240px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img-2 {
+    position: absolute;
+}
+
+#img1 {
+    right: -30px;
+    bottom: 300px;
+}
+
+#img2,
+#img3 {
+    left: -40px;
+    bottom: 295px;
+}
+
+
+.row {
+    color: white;
+
+}
