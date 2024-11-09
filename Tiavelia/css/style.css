@@ -1,0 +1,395 @@
+body {
+    padding: 0%;
+    margin: 0;
+    background-image: url(images/hero-bg.jpg);
+}
+
+/* #header {
+    position: fixed;
+    background-color: white;
+    z-index: 10000;
+    width: 100%;
+    padding-left: 200px;
+} */
+
+#header {
+    margin-bottom: 200px;
+    padding-left: 200px;
+}
+
+.logo {
+    display: flex;
+}
+
+#nav {
+    display: flex;
+}
+
+#nav .logo h1 {
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+#nav ul {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul .login {
+    padding-left: 200px;
+}
+
+.btnn {
+    background-color: #6633ff;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero .p1 {
+    padding-left: 20px;
+    background-image: url(images/cta-bg.jpg);
+    width: 200px;
+    border-radius: 30px;
+    color: #cc9999;
+}
+
+#hero h1 {
+    font-size: 60px;
+}
+
+
+
+.butn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 10px 30px;
+    background-color: #ff3366;
+    border-radius: 30px;
+    color: white;
+}
+
+.butn:hover {
+    background-color: #c12149;
+}
+
+.hero-img {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
+
+
+.butn {
+    position: relative;
+    top: 20px;
+}
+
+.hero-a {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero-a:hover {
+    text-decoration: none;
+}
+
+.hero-banner {
+    height: 700px;
+    width: 600px;
+    position: relative;
+    bottom: 100px;
+}
+
+#serve {
+    display: flex;
+    gap: 50px;
+}
+
+
+.serve-div1-h3 {
+    color: #663399;
+    font-size: 20px;
+}
+
+.serve-div1-p1 {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.serve-div2,
+.serve-div3,
+.serve-div4 {
+    line-height: 30px;
+    padding: 30px;
+}
+
+.serve-div2 {
+    background-color: #ffffcc22;
+
+}
+
+.serve-div3 {
+    background-color: #ffcccc20;
+    position: relative;
+    top: 50px;
+}
+
+.serve-div4 {
+    background-color: #ffccff1a;
+}
+
+#serve img {
+    height: 70px;
+    width: 70px;
+}
+
+#serve h1 {
+    font-size: 25px;
+}
+
+#destination .title {
+    text-align: center;
+    margin: 80px 0 0;
+}
+
+#destination .title p {
+    color: #663399;
+    font-weight: 500;
+}
+
+#destination .title h1,
+#photo .tilte h1 {
+    font-size: 50px;
+}
+
+#destination .content1,
+#destination .content2 {
+    display: flex;
+}
+
+#destination img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+
+#destination h1 {
+    font-size: 30px;
+}
+
+#destination span {
+    background-color: #ffffcc;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+#destination #pS {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    color: #663399;
+    font-weight: bold;
+}
+
+#destination .btnn {
+    background-color: #6633ff;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 230px;
+    margin: 50px 0 100px 470px;
+}
+
+#experience {
+    display: flex;
+}
+
+#experience .img1 {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 50px;
+}
+
+#experience .img2 {
+    width: 100px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 300px;
+}
+
+.experience-div2 {
+    line-height: 30px;
+}
+
+.experience-p1,
+#photo .tilte p {
+    color: #663399;
+    font-weight: 600;
+}
+
+.experience-h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#experience .row p {
+    font-size: 20px;
+}
+
+#experience .row h1 {
+    color: #6633ff;
+    font-weight: bold;
+}
+
+#photo .tilte {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#photo img {
+    border-radius: 30px;
+}
+
+#photo .img {
+    display: flex;
+    gap: 30px;
+}
+
+#photo #g1,
+#photo #g2 {
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+}
+
+#photo .img12 {
+    display: flex;
+}
+
+#photo #g3,
+#photo #g5,
+#photo #g6 {
+    width: 360px;
+    height: 200px;
+}
+
+#photo #g5 {
+    padding: 10px;
+}
+
+
+
+#photo #g4 {
+    width: 360px;
+    height: 400px;
+}
+
+#lastSec {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(images/cta-bg.jpg);
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#lastSec h1 {
+    font-size: 50px;
+}
+
+#lastSec button {
+    background-color: #6633ff;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+#footer {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+#footer .logo {
+    position: relative;
+    right: 15px;
+}
+
+#footer .img1 {
+    position: relative;
+    bottom: 17px;
+}
+
+#footer h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#footer .icon {
+    display: flex;
+    gap: 30px;
+    color: blue;
+}
+
+#footer .icon p {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#footer .icon p:hover {
+    cursor: pointer;
+    background-color: #6633ff;
+    color: white;
+
+}
+
+#footer .inp {
+    background-image: url(images/hero-bg.jpg);
+    border-radius: 30px;
+    border: rgba(0, 0, 0, 0.177) 2px solid;
+    padding: 10px;
+}
+
+#footer #i {
+    position: relative;
+    right: 30px;
+    color: blue;
+}
