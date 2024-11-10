@@ -1,0 +1,90 @@
+#Header {
+    background-color: rgba(0, 0, 0, 0.653);
+    display: flex;
+
+}
+
+#Header h1 {
+    margin-right: 900px;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+
+#navbark ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbark ul li {
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+#navbark ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbark ul li a:hover {
+    color: orange;
+    background-color: darkgrey;
+
+}
+
+#hero span {
+    color: orange;
+}
+
+#hero {
+    margin: 20px 100px;
+}
+
+#hero .Text,
+.Email {
+    width: 100%;
+}
+
+#hero .message {
+    height: 100px;
+    width: 100%;
+}
+
+#hero .submit {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.727);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#logo {
+    display: flex;
+    background-size: calc(100%/3);
+    background-color: rgba(0, 0, 0, 0.825);
+    color: rgba(240, 248, 255, 0.856);
+    text-align: center;
+}
+
+#logo i {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+
+#logo .hotel,
+.phone,
+.emai {
+    margin: 0 200px;
+
+}
+
+
+#Footer p {
+    background-color: rgba(0, 0, 0, 0.653);
+    text-align: center;
+    margin: 0%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+}
